@@ -11,5 +11,6 @@ fun main() {
     val b = 237.7
     val lg : Double = ((a * t)/(b + t)) + ln(h)
     val res = (b * lg)/(a - lg)
-    println("Ответ: $res")
+    val res2 = String.format("%.2f", res)
+    println("Ответ: $res2")
 }
